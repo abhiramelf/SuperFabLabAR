@@ -12,8 +12,11 @@ An AR enabled application for KSUM SuperFabLab made with Unity and Vuforia.
 Some steps need to be done inorder to completely make the application working.
 
 1. In "DefaultTrackableEventHandler.cs" script that comes with Vuforia, you need to make some changes.
-2. Make the "OnTrackingLost()" function "public". This is by default a "protected" one.
+2. Make the "OnTrackingLost()" method "public". This is by default a "protected" one.
 3. Add a new "public" variable - "newCustomStatus" to the script, which is of type "TrackableBehaviour.Status".
+4. In the "public" method "OnTrackableStateChanged()", assign the parameter "newStatus" to the variable "newCustomStatus".
+
+P.S. : These steps need to be executed everytime the project is opened.
 
 # Vuforia Image Targets
 The machines logos serve as the image targets for recognition.
