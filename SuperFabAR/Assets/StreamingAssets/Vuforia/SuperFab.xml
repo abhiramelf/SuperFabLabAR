@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="WireEDM" size="10.000000 13.333333" />
+    <ImageTarget name="BedMill" size="10.000000 7.500000" />
+    <ImageTarget name="3DPrinter" size="10.000000 7.500000" />
+    <ImageTarget name="Prusa" size="10.000000 2.170088" />
+    <ImageTarget name="Sindoh" size="10.000000 5.708583" />
+    <ImageTarget name="Laser" size="10.000000 7.500000" />
+    <ImageTarget name="ZUND" size="10.000000 7.500000" />
+    <ImageTarget name="LATHE" size="100.000000 100.000000" />
+    <ImageTarget name="OMAX2" size="100.000000 75.000000" />
+    <ImageTarget name="OMAX" size="100.000000 75.000000" />
+  </Tracking>
+</QCARConfig>
